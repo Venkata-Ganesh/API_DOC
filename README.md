@@ -1,5 +1,7 @@
 
-**Authentication API Documentation**
+**API Documentation**
+
+**Authentication**
 
 **Register a New User**
 
@@ -11,13 +13,13 @@ POST /api/v1/auth/register
 **Description**
 Register a new user with the provided information. Returns authentication details if registration is successful.
 
-**Authorization**
-None
+- **Authorization**: None
+- **Content-Type**: application/json
 
 **Request**
 ```http
 POST /api/v1/auth/register HTTP/1.1
-Host: wised-backend.com
+Host: localhost
 Content-Type: application/json
 
 {
@@ -67,13 +69,13 @@ POST /api/v1/auth/authenticate
 **Description**
 Authenticate a user using their email and password. Returns authentication details if authentication is successful.
 
-**Authorization**
-None
+- **Authorization**: None
+- **Content-Type**: application/json
 
 **Request**
 ```http
 POST /api/v1/auth/authenticate HTTP/1.1
-Host: wised-backend.com
+Host: localhost
 Content-Type: application/json
 
 {
@@ -122,14 +124,15 @@ POST /api/v1/auth/refresh-token
 **Description**
 Refresh an authentication token using a valid refresh token.
 
-**Authorization**
-Bearer
+- **Authorization**: Bearer
+- **Content-Type**: application/json
 
 **Request**
 ```http
 POST /api/v1/auth/refresh-token HTTP/1.1
-Host: wised-backend.com
+Host: localhost
 Authorization: Bearer access_token
+Content-Type: application/json
 ```
 
 **Response - Success (HTTP 200 OK)**
@@ -172,13 +175,13 @@ POST /api/v1/auth/password/forgot-password
 **Description**
 Initiate a password reset process for the specified email address.
 
-**Authorization**
-None
+- **Authorization**: None
+- **Content-Type**: application/json
 
 **Request**
 ```http
 POST /api/v1/auth/password/forgot-password HTTP/1.1
-Host: wised-backend.com
+Host: localhost
 Content-Type: application/json
 
 {
@@ -218,13 +221,13 @@ POST /api/v1/auth/password/reset-password
 **Description**
 Reset the password for a user using a valid reset token.
 
-**Authorization**
-None
+- **Authorization**: None
+- **Content-Type**: application/json
 
 **Request**
 ```http
 POST /api/v1/auth/password/reset-password HTTP/1.1
-Host: wised-backend.com
+Host: localhost
 Content-Type: application/json
 
 {
@@ -288,14 +291,15 @@ GET /api/v1/user/profile
 **Description**
 Get the user profile.
 
-**Authorization**
-Bearer
+- **Authorization**: Bearer
+- **Content-Type**: application/json
 
 **Request**
 ```http
 GET /api/v1/user/profile HTTP/1.1
-Host: wised-backend.com
+Host: localhost
 Authorization: Bearer access_token
+Content-Type: application/json
 ```
 
 **Response - Success (HTTP 200 OK)**
@@ -310,7 +314,9 @@ HTTP/1.1 200 OK
     "email": "user@example.com",
     "contact_number": "+1234567890",
     "bio": "A passionate developer who loves coding and building great applications.",
-    "dob": "1990-08-15",
+    "dob": "1990
+
+-08-15",
     "socialMediaLinks": ["https://facebook.com/user123", "https://twitter.com/user123"],
     "preferredLanguage": ["English", "Spanish"],
     "genre": ["Action", "Drama"],
@@ -322,9 +328,7 @@ HTTP/1.1 200 OK
 }
 ```
 
-**
-
-Response - Error (HTTP 400 Bad Request)**
+**Response - Error (HTTP 400 Bad Request)**
 ```http
 HTTP/1.1 400 Bad Request
 
@@ -345,13 +349,13 @@ PUT /api/v1/user/profile/update
 **Description**
 Update the user profile.
 
-**Authorization**
-Bearer
+- **Authorization**: Bearer
+- **Content-Type**: application/json
 
 **Request**
 ```http
 PUT /api/v1/user/profile/update HTTP/1.1
-Host: wised-backend.com
+Host: localhost
 Authorization: Bearer access_token
 Content-Type: application/json
 
