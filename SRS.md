@@ -1,13 +1,13 @@
                                                               
-**Title:** **Software Requirements Specification (SRS) for Wised**
+# Title: **Software Requirements Specification (SRS) for Wised**
 
-**Introduction:**
+# Introduction:
 
 
 This Software Requirements Specification (SRS) document describes the requirements for a web-based platform designed to facilitate the creation, publication, and consumption of educational videos for children. The platform will enable educators to create and share video lessons, while students can watch and learn from these videos. The system must be easy to use, intuitive, and accessible on various devices.
 
 
-**System Architecture:**
+# System Architecture:
 
 
 The system will comprise the following components:
@@ -38,7 +38,7 @@ The system will comprise the following components:
 - Role-based access control (RBAC) for differentiated access privileges between administrators, educators, and students
 
 
-**Functional Requirements:**
+# Functional Requirements:
 
 
 The following functional requirements must be met by the system:
@@ -72,7 +72,7 @@ The following functional requirements must be met by the system:
 - Analytics dashboard displays metrics such as video completion rates, quiz scores, and assignment submissions
 
 
-**Non-Functional Requirements:**
+# Non-Functional Requirements:
 
 
 The following non-functional requirements must be met by the system:
@@ -100,7 +100,7 @@ The following non-functional requirements must be met by the system:
 - Input validation and sanitization against SQL injection and cross-site scripting attacks
 
 
-**Implementation Plan:**
+# Implementation Plan:
 
 
 The implementation plan for this project includes the following stages:
@@ -161,7 +161,7 @@ The implementation plan for this project includes the following stages:
 
 By following this stage-gate approach, you can develop and launch a successful video-based learning platform that meets the needs of educators and students while ensuring effective project management and resource allocation.
 
-**Here are some additional tips to consider for each stage:**
+# Here are some additional tips to consider for each stage:
 
 **Stage 1 - Idea Validation**
 - Conduct market research to understand the existing landscape of video-based learning platforms and identify opportunities for differentiation.
