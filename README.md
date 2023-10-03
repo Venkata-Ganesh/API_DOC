@@ -1,7 +1,7 @@
 
-**API Documentation**
+# API Documentation
 
-**Authentication**
+# Authentication
 
 **Register a New User**
 
@@ -279,7 +279,7 @@ HTTP/1.1 400 Bad Request
 }
 ```
 
-**User Profile API Documentation**
+# User Profile API Documentation
 
 **Get User Profile**
 
