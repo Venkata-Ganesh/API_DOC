@@ -1,4 +1,33 @@
 
+
+
+
+Here's the table with the timeline for each feature, along with the estimated time required and descriptions:
+
+| Feature Name                     | Time Required  | Description                                                                                          |
+|----------------------------------|----------------|------------------------------------------------------------------------------------------------------|
+| User Profile                     | 2-3 weeks      | Involves privacy settings and other user-related functionalities.                                       |
+| Connections Page                 | 1.5 months    | Development of the connections page for user interactions.                                          |
+| Content Creation / Upload...    | 1-1.5 months  | Includes repository setup, virus and file scanning, and content upload.                              |
+| Content Display (like Box)      | 1 month       | Creation of a content display system, similar to a box.                                             |
+| Feed Page                        | 3 months      | Building the feed page with posts, articles, likes, comments, etc.                                   |
+| Dashboard                        | 1 week        | Development of the user dashboard for activity and content tracking.                                  |
+| Analytics                        | 1 month       | Implementation of analytics features for user data.                                                |
+| Recommendations                  | (ML experts)  | Development of machine learning-based recommendations.                                             |
+| Library                          | 2 weeks      | Setting up a library system for storing educational content.                                         |
+| Learn by Stream                  | 2-3 months    | Generating mock-up data, teacher profiles, and recommendation features for learning.               |
+| Courses/Modules                  | 2.5 months    | Creating and consuming learning paths, courses, and modules.                                        |
+| Trending                         | 3 weeks-1 month | Implementing basic recommendations and potentially ML-based trending topics.                        |
+| LMS                              | 2 months      | Development of a Learning Management System, dependent on previous features.                       |
+| Fun@Learn                        | (Not sure)    | Exploring new product features like games, potentially requiring a separate tech stack.             |
+| Community (Channels + Groups)   | 3 months      | Building community features including channels and groups.                                        |
+| Notifications                    | 1 month       | Creating a separate service for managing notifications.                                           |
+| Search + Filters (Global/Local) | 1 month       | Implementing search and filter functionalities, both global and local.                              |
+| Recent Activity/History          | (After above) | Tackling recent activity/history once all previous features are completed.                           |
+| Testing + Deployment +...       | (Additional)  | Time required for testing, deployment, production setup, microservices, content generation, and mockup data. |
+
+Please note that some features may require additional time and resources depending on their complexity and specific requirements. The timeline provided is an estimate and may be subject to change during the development process.
+-----
 # API Documentation
 
 ## Authentication
